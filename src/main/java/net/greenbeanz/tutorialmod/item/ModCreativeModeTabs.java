@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_RUBY.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                     })
 
                     .build());

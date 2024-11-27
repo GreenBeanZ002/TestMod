@@ -7,6 +7,7 @@
   "block.tutorialmod.sapphire_block": "Block of Sapphire",
   "block.tutorialmod.raw_sapphire_block" : "Block of Raw Sapphire",
   "block.tutorialmod.ruby_block" : "Block of Ruby",
+  "block.tutorialmod.raw_ruby_block" : "Block of Raw Ruby",
 
   "creativetab.tutorial_tab" : "Gems n' Bits"
 }

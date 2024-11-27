@@ -1,6 +1,8 @@
 package net.greenbeanz.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.greenbeanz.tutorialmod.block.ModBlocks;
+import net.greenbeanz.tutorialmod.item.ModCreativeModeTabs;
 import net.greenbeanz.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,7 +29,10 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -43,12 +48,6 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-            event.accept(ModItems.RUBY);
-            event.accept(ModItems.RAW_RUBY);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

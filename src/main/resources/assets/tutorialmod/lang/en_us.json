@@ -2,5 +2,12 @@
   "item.tutorialmod.sapphire": "Sapphire",
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
   "item.tutorialmod.ruby": "Ruby",
-  "item.tutorialmod.raw_ruby": "Raw Ruby"
+  "item.tutorialmod.raw_ruby": "Raw Ruby",
+
+  "block.tutorialmod.sapphire_block": "Block of Sapphire",
+  "block.tutorialmod.raw_sapphire_block" : "Block of Raw Sapphire",
+  "block.tutorialmod.ruby_block" : "Block of Ruby",
+  "block.tutorialmod.raw_ruby_block" : "Block of Raw Ruby",
+
+  "creativetab.tutorial_tab" : "Gems n' Bits"
 }

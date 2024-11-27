@@ -1,6 +1,7 @@
 package net.greenbeanz.tutorialmod.item;
 
 import net.greenbeanz.tutorialmod.TutorialMod;
+import net.greenbeanz.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
 
                     .build());

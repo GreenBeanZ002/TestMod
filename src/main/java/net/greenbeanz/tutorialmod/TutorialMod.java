@@ -1,6 +1,8 @@
 package net.greenbeanz.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.greenbeanz.tutorialmod.block.ModBlocks;
+import net.greenbeanz.tutorialmod.item.ModCreativeModeTabs;
 import net.greenbeanz.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,7 +29,10 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -19,6 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_RUBY  = ITEMS.register("raw_ruby",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST  = ITEMS.register("amethyst",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

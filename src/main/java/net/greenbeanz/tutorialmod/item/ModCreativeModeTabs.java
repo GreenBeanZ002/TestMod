@@ -20,8 +20,10 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RUBY.get());
+                        pOutput.accept(ModItems.AMETHYST.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
+
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })

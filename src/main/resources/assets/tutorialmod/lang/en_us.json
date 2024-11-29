@@ -11,6 +11,7 @@
   "block.tutorialmod.raw_sapphire_block" : "Block of Raw Sapphire",
   "block.tutorialmod.ruby_block" : "Block of Ruby",
   "block.tutorialmod.raw_ruby_block" : "Block of Raw Ruby",
+  "block.tutorialmod.amethyst_block" : "Block of Amethyst",
 
   "creativetab.tutorial_tab" : "Gems n' Bits"
 }

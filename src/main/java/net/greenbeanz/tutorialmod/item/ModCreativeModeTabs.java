@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.AMETHYST_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_AMETHYST_BLOCK.get());
                     })
 
                     .build());

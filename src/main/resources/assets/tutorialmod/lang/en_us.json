@@ -7,7 +7,14 @@
   "item.tutorialmod.raw_amethyst": "Raw Amethyst",
 
 
-  "block.tutorialmod.sapphire_block" : "Block of Sapphire",
+  "block.tutorialmod.sapphire_block": "Block of Sapphire",
+  "block.tutorialmod.raw_sapphire_block" : "Block of Raw Sapphire",
+  "block.tutorialmod.ruby_block" : "Block of Ruby",
+  "block.tutorialmod.raw_ruby_block" : "Block of Raw Ruby",
+  "block.tutorialmod.amethyst_block" : "Block of Amethyst",
+  "block.tutorialmod.raw_amethyst_block" : "Block of Raw Amethyst",
+
+  "item.tutorialmod.gem_template" : "Gem Template",
 
   "creativetab.tutorial_tab" : "Gems n' Bits"
 }

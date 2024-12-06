@@ -13,5 +13,7 @@
   "block.tutorialmod.raw_ruby_block" : "Block of Raw Ruby",
   "block.tutorialmod.amethyst_block" : "Block of Amethyst",
 
+  "item.tutorialmod.gem_template" : "Gem Template",
+
   "creativetab.tutorial_tab" : "Gems n' Bits"
 }

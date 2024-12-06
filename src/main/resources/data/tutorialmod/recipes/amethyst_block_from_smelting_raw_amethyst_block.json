@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5,
+  "group": "amethyst",
+  "ingredient": {
+    "item": "tutorialmod:raw_amethyst_block"
+  },
+  "result": {
+    "id": "tutorialmod:amethyst_block"
+  }
+}

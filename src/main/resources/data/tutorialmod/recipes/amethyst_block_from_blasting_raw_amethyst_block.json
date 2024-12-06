@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 50,
+  "group": "amethyst",
+  "ingredient": {
+    "item": "tutorialmod:raw_amethyst_block"
+  },
+  "result": {
+    "id": "tutorialmod:amethyst_block"
+  }
+}

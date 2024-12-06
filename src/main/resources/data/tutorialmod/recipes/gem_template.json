@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S" : {
+      "item": "minecraft:sand"
+    },
+    "D" : {
+      "item" : "minecraft:diamond"
+    },
+    "E" : {
+      "item" : "minecraft:end_stone"
+    },
+    "T" : {
+      "item" : "tutorialmod:gem_template"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "STS",
+    "SES"
+  ],
+  "result": {
+    "count" : "4",
+    "id": "tutorialmod:gem_template"
+
+  }
+}

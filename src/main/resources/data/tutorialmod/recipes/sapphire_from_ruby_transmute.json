@@ -10,12 +10,12 @@
     },
     "T" : {
       "item": "tutorialmod:gem_template"
-    },
+    }
   },
   "pattern": [
-    "T",
+    "#",
     "G",
-    "#"
+    "T"
   ],
   "result": {
     "count": 1,

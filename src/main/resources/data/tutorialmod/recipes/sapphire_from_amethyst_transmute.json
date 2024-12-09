@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "gems",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "tutorialmod:amethyst"
+    },
+    "T" : {
+      "item": "tutorialmod:gem_template"
+    }
+  },
+  "pattern": [
+    "#",
+    "G",
+    "T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:sapphire"
+  }
+}

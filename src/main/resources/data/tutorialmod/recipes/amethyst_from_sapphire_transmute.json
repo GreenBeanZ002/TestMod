@@ -3,22 +3,22 @@
   "category": "gems",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:chorus_fruit"
     },
     "G": {
-      "item": "tutorialmod:ruby"
+      "item": "tutorialmod:sapphire"
     },
     "T" : {
       "item": "tutorialmod:gem_template"
-    },
+    }
   },
   "pattern": [
-    "T",
+    "#",
     "G",
-    "#"
+    "T"
   ],
   "result": {
     "count": 1,
-    "id": "tutorialmod:sapphire"
+    "id": "tutorialmod:amethyst"
   }
 }

@@ -23,8 +23,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_AMETHYST  = ITEMS.register("raw_amethyst",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GEM_TEMPLATE  = ITEMS.register("gem_template",
-            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

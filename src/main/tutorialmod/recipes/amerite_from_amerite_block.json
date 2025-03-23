@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "tutorialmod:amethyst_block"
+      "item": "tutorialmod:amerite_block"
     }
   ],
   "result": {
-    "id": "tutorialmod:amethyst",
+    "id": "tutorialmod:amerite",
     "count": 9
   }
 }

@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "tutorialmod:amethyst"
+      "item": "tutorialmod:raw_amerite"
     }
   },
   "result": {
-    "id": "tutorialmod:amethyst_block"
+    "id": "tutorialmod:raw_amerite_block"
   }
 }

@@ -3,10 +3,10 @@
   "category": "gems",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:chorus_fruit"
     },
     "G": {
-      "item": "tutorialmod:amethyst"
+      "item": "tutorialmod:ruby"
     },
     "T" : {
       "item": "tutorialmod:gem_template"
@@ -19,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "tutorialmod:sapphire"
+    "id": "tutorialmod:amerite"
   }
 }

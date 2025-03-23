@@ -3,11 +3,11 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 5,
-  "group": "amethyst",
+  "group": "amerite",
   "ingredient": {
-    "item": "tutorialmod:raw_amethyst_block"
+    "item": "tutorialmod:raw_amerite_block"
   },
   "result": {
-    "id": "tutorialmod:amethyst_block"
+    "id": "tutorialmod:amerite_block"
   }
 }

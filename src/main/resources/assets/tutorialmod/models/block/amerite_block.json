@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/amethyst_block"
+    "all": "tutorialmod:block/amerite_block"
   }
 }

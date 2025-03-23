@@ -19,9 +19,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_RUBY  = ITEMS.register("raw_ruby",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> AMETHYST  = ITEMS.register("amethyst",
+    public static final RegistryObject<Item> AMERITE  = ITEMS.register("amerite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_AMETHYST  = ITEMS.register("raw_amethyst",
+    public static final RegistryObject<Item> RAW_AMERITE = ITEMS.register("raw_amerite",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> URANIUM_BAR  = ITEMS.register("uranium_bar",
             () -> new Item(new Item.Properties()));
